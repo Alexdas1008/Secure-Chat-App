@@ -1,0 +1,180 @@
+Create a complete Master's-level Core Java project named:
+
+"Distributed Encrypted Chat Application with Group Chat, File Sharing, and Multi-threaded Server Architecture"
+
+Requirements:
+
+1. Technology Stack
+- Pure Core Java only
+- Java Socket Programming
+- Multithreading
+- Java Collections Framework
+- File Handling
+- Object Serialization
+- AES Encryption
+- Swing GUI
+- No Spring Boot, Hibernate, Maven, Gradle, or external frameworks unless absolutely required for encryption
+
+2. Project Architecture
+
+Server Side:
+- Multi-threaded chat server
+- Accept multiple client connections simultaneously
+- Separate thread for each connected client
+- User authentication system
+- Online user management
+- Group chat management
+- Private messaging
+- File transfer handling
+- Chat history storage
+- Server logs
+- Proper exception handling
+
+Client Side:
+- Swing-based modern GUI
+- Login window
+- Registration window
+- Main chat dashboard
+- Online users list
+- Group chat panel
+- Private chat panel
+- File sharing option
+- Message notification system
+- Connection status indicator
+
+3. Encryption
+
+Implement AES-256 encryption:
+- Encrypt every message before transmission
+- Decrypt after receiving
+- Secure key management
+- Utility class for encryption and decryption
+- Demonstrate encrypted network communication
+
+4. Functional Requirements
+
+User Management:
+- Register new user
+- Login user
+- Logout user
+- Maintain active user list
+
+Messaging:
+- One-to-one private chat
+- Group chat room
+- Broadcast messages
+- Message timestamps
+- Readable message history
+
+File Sharing:
+- Send files between users
+- Receive files
+- Progress indicator
+- Save received files automatically
+
+Group Features:
+- Create group
+- Join group
+- Leave group
+- Send messages inside group
+- Group member management
+
+5. Distributed Features
+
+Implement distributed architecture:
+- Multiple chat server nodes
+- Inter-server communication
+- Synchronization of connected users
+- Message forwarding between servers
+- Basic fault tolerance
+- Configuration file for server addresses
+
+6. Database Alternative
+
+Do NOT use database.
+
+Use:
+- File handling
+- Serialization
+- JSON/text files
+
+Store:
+- User accounts
+- Chat history
+- Group information
+- Server configuration
+
+7. OOP Design
+
+Use:
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+- Interfaces
+
+Create proper classes such as:
+- ChatServer
+- ChatClient
+- ClientHandler
+- User
+- Group
+- Message
+- FileTransferManager
+- EncryptionUtil
+- AuthenticationManager
+- ServerNode
+- ChatHistoryManager
+
+8. Project Structure
+
+Generate complete folder structure:
+
+src/
+├── client/
+├── server/
+├── common/
+├── encryption/
+├── filetransfer/
+├── models/
+├── gui/
+├── storage/
+└── config/
+
+9. Documentation
+
+Generate:
+- Project Abstract
+- Introduction
+- Objectives
+- System Architecture
+- Module Description
+- Algorithms Used
+- Class Diagram Description
+- Sequence Diagram Description
+- Features
+- Future Scope
+- Conclusion
+
+10. Output Required
+
+Generate:
+- Complete source code
+- Every Java file separately
+- Detailed comments
+- Step-by-step execution instructions
+- Screenshots description
+- Test cases
+- README.md
+- Installation guide
+
+11. Code Quality
+
+- Professional coding standards
+- Exception handling everywhere
+- Thread-safe implementation
+- Modular design
+- Proper comments
+- Easy to understand structure
+
+The project must be fully runnable inside Replit using Java and should compile without errors. Generate the code module by module, starting from project structure and core architecture, then server implementation, client implementation, encryption module, file sharing module, GUI module, and finally testing and documentation.
